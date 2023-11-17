@@ -17,7 +17,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load the model
 model = smp.UnetPlusPlus(
-    encoder_name="resnet34",
+    encoder_name="resnet152",
     encoder_weights="imagenet",
     in_channels=3,
     classes=3

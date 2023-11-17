@@ -2,7 +2,7 @@
 
 - My assignment DL for competition: https://www.kaggle.com/competitions/bkai-igh-neopolyp  
 - Run my solution quickly: [Run on Kaggle]()   update sau.
-    - Hoặc truy cập nhanh file `quickly_infer_kaggle.ipynb` import lên notebook cuộc thi, Thêm data: pretrain model và chạy all. 
+    - Hoặc truy cập nhanh file `quickly_infer_kaggle.ipynb` và chạy all. 
     - Hoặc làm theo các hướng dẫn bên dưới: 
 
 B1: clone my repo
