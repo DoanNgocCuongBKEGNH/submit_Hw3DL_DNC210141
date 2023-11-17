@@ -1,0 +1,4 @@
+torchsummary
+torchgeometry
+torchmetrics
+segmentation-models-pytorch
