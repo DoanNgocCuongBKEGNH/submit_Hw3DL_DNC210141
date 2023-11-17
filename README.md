@@ -16,10 +16,10 @@
 ```
 
 ```python
-!git clone https://github.com/  # link to my repo
+https://github.com/DoanNgocCuongBKEGNH/submit_Hw3DL_DNC210141 # link to my repo
 ```
 ```python
-!cp /kaggle/working/model.pth /kaggle/working/unet-semantic-segmentation/
+!cp /kaggle/working/model.pth /kaggle/working/submit_Hw3DL_DNC210141/
 ```
 
 ```python
@@ -27,6 +27,6 @@
 ```
 
 ```python
-!python /kaggle/working/unet-semantic-segmentation/infer.py  # args run
+!python infer.py  # args run
 ```
 
