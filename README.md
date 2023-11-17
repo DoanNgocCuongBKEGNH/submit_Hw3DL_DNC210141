@@ -1,9 +1,9 @@
 # About Semantic Segmentation 
 
 - My assignment DL for competition: https://www.kaggle.com/competitions/bkai-igh-neopolyp  
-- Run my solution: 
-    - [Run on Kaggle](https://www.kaggle.com/code/scratchpad/notebooka85168ecca/edit)   
-* Đọc và Làm theo các bước bên dưới. Hoặc truy cập nhanh file `infer_kaggle.py` import lên và chạy all. 
+- Run my solution quickly: 
+    - [Run on Kaggle](https://www.kaggle.com/code/cngonngc/quickly-infer-kaggle-doanngoccuong-ipynb?scriptVersionId=151165382)   
+* Đọc và Làm theo các bước bên dưới. Hoặc truy cập nhanh file `quickly_infer_kaggle.py` import lên và chạy all. 
 
 B1: clone my repo
 ```python
