@@ -25,8 +25,8 @@ model = smp.UnetPlusPlus(
 model.to(device)
 
 # Load the pretrained model 
-check_point = torch.load('model.pth', map_location=device)
-model.load_state_dict(checkpoint['model_state_dict'])           # Trong model lúc train mình tạo: model.load_state_dict(checkpoint['model_state_dict'])  
+name_checkpoint = torch.load('model.pth', map_location=device)
+model.load_state_dict(name_checkpoint['model_state_dict'])           # Trong model lúc train mình tạo: model.load_state_dict(checkpoint['model_state_dict'])  
 
 color_mapping = {
     0: (0, 0, 0), # Background

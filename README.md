@@ -57,3 +57,4 @@ Nếu bạn muốn dùng file infer.py của mình thì nhớ set resnet34, resn
 2. Download my pretrain_model:
 - I use Unet++ with Resnet101 which has been pre-trained on the pytorch semantic segmentation library, then trained on the competition data set.
 - You can download at my Drive link: 
+3. Report for Unet++101resnet và Unet++152resnet: 
