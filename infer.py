@@ -17,7 +17,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load the model
 model = smp.UnetPlusPlus(
-    encoder_name="resnet152",
+    encoder_name="resnet152",    #set đúng resnet của model đã train. Ở đây mình dùng resnet34, 101, 152
     encoder_weights="imagenet",
     in_channels=3,
     classes=3
@@ -26,7 +26,7 @@ model.to(device)
 
 # Load the pretrained model 
 check_point = torch.load('model.pth', map_location=device)
-model.load_state_dict(check_point['model'])
+model.load_state_dict(checkpoint['model_state_dict'])           # Trong model lúc train mình tạo: model.load_state_dict(checkpoint['model_state_dict'])  
 
 color_mapping = {
     0: (0, 0, 0), # Background
