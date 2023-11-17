@@ -17,7 +17,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load the model
 model = smp.UnetPlusPlus(
-    encoder_name="resnet101",
+    encoder_name="resnet34",
     encoder_weights="imagenet",
     in_channels=3,
     classes=3
@@ -91,7 +91,7 @@ result = mask2string('/kaggle/working/predict_mask')
 df = pd.DataFrame(result, columns = ['Id', 'Expected'])
 df['Id'] = result['idx']
 df['Expected'] = result['result_str']
-df.to_csv('/kaggle/working/quan_submission.csv', index=False)
+df.to_csv('/kaggle/working/submit_output.csv', index=False)
 
 print('--- Finish ---')
 
