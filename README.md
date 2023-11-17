@@ -2,16 +2,8 @@
 
 - My assignment DL for competition: https://www.kaggle.com/competitions/bkai-igh-neopolyp  
 - Run my solution: 
-
-1. Input Data 
-2. Download my pretrain_model:
-- I use Unet++ with Resnet101 which has been pre-trained on the pytorch semantic segmentation library, then trained on the competition data set.
-- You can download at my Drive link: 
-...
-3. Run my solution at Kaggle:
-
-
-
+    - [Run on Kaggle](https://www.kaggle.com/code/scratchpad/notebooka85168ecca/edit)   
+* Đọc và Làm theo các bước bên dưới. Hoặc truy cập nhanh file `infer_kaggle.py` import lên và chạy all. 
 
 B1: clone my repo
 ```python
@@ -44,9 +36,14 @@ B5: Cài thư viện
 !pip install -r requirements.txt
 ```
 
-B5: Run my solution
+B6: Run my solution
 
 ```python
 !python infer.py  # args run
 ```
 
+-------------------------------
+1. Input Data 
+2. Download my pretrain_model:
+- I use Unet++ with Resnet101 which has been pre-trained on the pytorch semantic segmentation library, then trained on the competition data set.
+- You can download at my Drive link: 
